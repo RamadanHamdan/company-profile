@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css"/>
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pages</title>
+    <title>{{ $title }}</title>
 </head>
 <body class="h=full">
 
@@ -22,6 +22,6 @@
     </div>
   </main>
 </div>
-{{-- <x-footer></x-footer> --}}
+<x-footer></x-footer>
 </body>
 </html>
