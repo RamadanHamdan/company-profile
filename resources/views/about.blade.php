@@ -1,10 +1,6 @@
 <x-layout>
     <x-slot:title>{{ $title }}</x-slot:title>
     <x-slot name="header">About</x-slot>
-
-    <div class="start-kontent">
-        <h2>Agen Travel</h2>
-    </div>
     <section class="bg-white-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
             <div class="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">

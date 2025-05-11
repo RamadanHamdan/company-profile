@@ -13,19 +13,17 @@
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-.start-kontent {
-    padding : 0px 0px 40px;
-    margin : 0px 0px 20px;
-    font-family: Volkhov, serif;
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.title {
+    font-size: 2rem;
     font-weight: 700;
-    padding-bottom: 40px;
-    border-bottom: 1px solid var(--contrast-3);
-    display: block;
-    font-size: 35px;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    unicode-bidi: isolate;
+    color: #333;
+    margin-top: 100px;
 }
