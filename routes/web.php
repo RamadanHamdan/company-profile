@@ -22,3 +22,7 @@ Route::get('/contact', function () {
 Route::get('/blog', function () {
     return view('blog',['title' => 'Blog']);
 });
+
+Route::get('/rute', function () {
+    return view('rute',['title' => 'Rute']);
+});

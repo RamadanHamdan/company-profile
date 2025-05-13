@@ -185,10 +185,10 @@ URL: https://flowbite.com/docs/components/typography/
                     <h2 class="text-lg lg:text-2xl font-bold text-gray-900 dark:text-white">Discussion (20)</h2>
                 </div>
                 <form class="mb-6">
-                    <div class="py-2 px-4 mb-4 bg-white rounded-lg rounded-t-lg border border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+                    <div class="py-2 px-4 mb-4 bg-white rounded-lg rounded-t-lg border border-gray-200 dark:bg-white-800 dark:border-white-700">
                         <label for="comment" class="sr-only">Your comment</label>
                         <textarea id="comment" rows="6"
-                            class="px-0 w-full text-sm text-gray-900 border-0 focus:ring-0 dark:text-white dark:placeholder-gray-400 dark:bg-gray-800"
+                            class="px-0 w-full text-sm text-gray-900 border-0 focus:ring-0 dark:text-black dark:placeholder-white-400 dark:bg-white-800"
                             placeholder="Write a comment..." required></textarea>
                     </div>
                     <button type="submit"
@@ -207,7 +207,7 @@ URL: https://flowbite.com/docs/components/typography/
                                     title="February 8th, 2022">Feb. 8, 2022</time></p>
                         </div>
                         <button id="dropdownComment1Button" data-dropdown-toggle="dropdownComment1"
-                            class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                            class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-white-900 dark:hover:bg-white-700 dark:focus:ring-gray-600"
                             type="button">
                               <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 3">
                                   <path d="M2 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm6.041 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z"/>
@@ -247,18 +247,18 @@ URL: https://flowbite.com/docs/components/typography/
                         </button>
                     </div>
                 </article>
-                <article class="p-6 mb-6 ml-6 lg:ml-12 text-base bg-white rounded-lg dark:bg-gray-900">
+                <article class="p-6 mb-6 ml-6 lg:ml-12 text-base bg-white rounded-lg dark:bg-white-900">
                     <footer class="flex justify-between items-center mb-2">
                         <div class="flex items-center">
-                            <p class="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white"><img
+                            <p class="inline-flex items-center mr-3 font-semibold text-sm text-black-900 dark:text-black"><img
                                     class="mr-2 w-6 h-6 rounded-full"
                                     src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
                                     alt="Jese Leos">Jese Leos</p>
-                            <p class="text-sm text-gray-600 dark:text-gray-400"><time pubdate datetime="2022-02-12"
+                            <p class="text-sm text-black-600 dark:text-black-400"><time pubdate datetime="2022-02-12"
                                     title="February 12th, 2022">Feb. 12, 2022</time></p>
                         </div>
                         <button id="dropdownComment2Button" data-dropdown-toggle="dropdownComment2"
-                            class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                            class="inline-flex items-center p-2 text-sm font-medium text-center text-black-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-white-900 dark:hover:bg-white-700 dark:focus:ring-gray-600"
                             type="button">
                               <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 3">
                                   <path d="M2 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm6.041 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z"/>
@@ -267,8 +267,8 @@ URL: https://flowbite.com/docs/components/typography/
                         </button>
                         <!-- Dropdown menu -->
                         <div id="dropdownComment2"
-                            class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
-                            <ul class="py-1 text-sm text-gray-700 dark:text-gray-200"
+                            class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-white-700 dark:divide-white-600">
+                            <ul class="py-1 text-sm text-black-700 dark:text-black-200"
                                 aria-labelledby="dropdownMenuIconHorizontalButton">
                                 <li>
                                     <a href="#"
@@ -296,18 +296,18 @@ URL: https://flowbite.com/docs/components/typography/
                         </button>
                     </div>
                 </article>
-                <article class="p-6 mb-6 text-base bg-white border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <article class="p-6 mb-6 text-base bg-white border-t border-gray-200 dark:border-white-700 dark:bg-white-900">
                     <footer class="flex justify-between items-center mb-2">
                         <div class="flex items-center">
-                            <p class="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white"><img
+                            <p class="inline-flex items-center mr-3 font-semibold text-sm text-black-900 dark:text-black"><img
                                     class="mr-2 w-6 h-6 rounded-full"
                                     src="https://flowbite.com/docs/images/people/profile-picture-3.jpg"
                                     alt="Bonnie Green">Bonnie Green</p>
-                            <p class="text-sm text-gray-600 dark:text-gray-400"><time pubdate datetime="2022-03-12"
+                            <p class="text-sm text-black-600 dark:text-black-400"><time pubdate datetime="2022-03-12"
                                     title="March 12th, 2022">Mar. 12, 2022</time></p>
                         </div>
                         <button id="dropdownComment3Button" data-dropdown-toggle="dropdownComment3"
-                            class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                            class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-white-900 dark:hover:bg-white-700 dark:focus:ring-gray-600"
                             type="button">
                               <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 3">
                                   <path d="M2 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm6.041 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z"/>
@@ -316,8 +316,8 @@ URL: https://flowbite.com/docs/components/typography/
                         </button>
                         <!-- Dropdown menu -->
                         <div id="dropdownComment3"
-                            class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
-                            <ul class="py-1 text-sm text-gray-700 dark:text-gray-200"
+                            class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-white-700 dark:divide-white-600">
+                            <ul class="py-1 text-sm text-white-700 dark:text-white-200"
                                 aria-labelledby="dropdownMenuIconHorizontalButton">
                                 <li>
                                     <a href="#"
@@ -345,10 +345,10 @@ URL: https://flowbite.com/docs/components/typography/
                         </button>
                     </div>
                 </article>
-                <article class="p-6 text-base bg-white border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <article class="p-6 text-base bg-white border-t border-gray-200 dark:border-white-700 dark:bg-white-900">
                     <footer class="flex justify-between items-center mb-2">
                         <div class="flex items-center">
-                            <p class="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white"><img
+                            <p class="inline-flex items-center mr-3 font-semibold text-sm text-black-900 dark:text-black"><img
                                     class="mr-2 w-6 h-6 rounded-full"
                                     src="https://flowbite.com/docs/images/people/profile-picture-4.jpg"
                                     alt="Helene Engels">Helene Engels</p>
@@ -356,7 +356,7 @@ URL: https://flowbite.com/docs/components/typography/
                                     title="June 23rd, 2022">Jun. 23, 2022</time></p>
                         </div>
                         <button id="dropdownComment4Button" data-dropdown-toggle="dropdownComment4"
-                            class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                            class="inline-flex items-center p-2 text-sm font-medium text-center text-black-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-white-900 dark:hover:bg-white-700 dark:focus:ring-gray-600"
                             type="button">
                               <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 3">
                                   <path d="M2 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm6.041 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z"/>
@@ -364,8 +364,8 @@ URL: https://flowbite.com/docs/components/typography/
                         </button>
                         <!-- Dropdown menu -->
                         <div id="dropdownComment4"
-                            class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
-                            <ul class="py-1 text-sm text-gray-700 dark:text-gray-200"
+                            class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-white-700 dark:divide-white-600">
+                            <ul class="py-1 text-sm text-black-700 dark:text-black-200"
                                 aria-labelledby="dropdownMenuIconHorizontalButton">
                                 <li>
                                     <a href="#"
@@ -398,9 +398,9 @@ URL: https://flowbite.com/docs/components/typography/
     </div>
   </main>
   
-  <aside aria-label="Related articles" class="py-8 lg:py-24 bg-gray-50 dark:bg-gray-800">
+  <aside aria-label="Related articles" class="py-8 lg:py-24 bg-white-50 dark:bg-white-800">
     <div class="px-4 mx-auto max-w-screen-xl">
-        <h2 class="mb-8 text-2xl font-bold text-gray-900 dark:text-white">Related articles</h2>
+        <h2 class="mb-8 text-2xl font-bold text-black-900 dark:text-black">Related articles</h2>
         <div class="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
             <article class="max-w-xs">
                 <a href="#">
@@ -454,10 +454,10 @@ URL: https://flowbite.com/docs/components/typography/
     </div>
   </aside>
   
-  <section class="bg-white dark:bg-gray-900">
+  <section class="bg-white dark:bg-gray-100">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div class="mx-auto max-w-screen-md sm:text-center">
-            <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl dark:text-white">Sign up for our newsletter</h2>
+            <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-black-900 sm:text-4xl dark:text-black">Sign up for our newsletter</h2>
             <p class="mx-auto mb-8 max-w-2xl  text-gray-500 md:mb-12 sm:text-xl dark:text-gray-400">Stay up to date with the roadmap progress, announcements and exclusive discounts feel free to sign up with your email.</p>
             <form action="#">
                 <div class="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
@@ -469,7 +469,7 @@ URL: https://flowbite.com/docs/components/typography/
                               <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
                            </svg>
                         </div>
-                        <input class="block p-3 pl-9 w-full text-sm text-gray-900 bg-white rounded-lg border border-gray-300 sm:rounded-none sm:rounded-l-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Enter your email" type="email" id="email" required="">
+                        <input class="block p-3 pl-9 w-full text-sm text-gray-900 bg-white rounded-lg border border-gray-300 sm:rounded-none sm:rounded-l-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-white-700 dark:border-white-600 dark:placeholder-white-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Enter your email" type="email" id="email" required="">
                     </div>
                     <div>
                         <button type="submit" class="py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg border cursor-pointer bg-primary-700 border-primary-600 sm:rounded-none sm:rounded-r-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Subscribe</button>
@@ -482,7 +482,7 @@ URL: https://flowbite.com/docs/components/typography/
   </section>
   
   <footer class="bg-gray-50 dark:bg-gray-800 antialiased">
-    <div class="p-4 py-6 mx-auto max-w-screen-xl md:p-8 lg:p-10">
+    <div class="p-6 py-8 mx-auto max-w-screen-xl md:p-10 lg:p-10">
         <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
             <div>
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
